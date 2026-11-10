@@ -12,7 +12,7 @@ st.set_page_config(page_title=f"FinanceDesk - {MY_NAME}", page_icon="🟩", layo
 st.markdown("""
 <style>
 .stApp, .block-container, .h-card, .h-label, .h-num, .h-title, .h-sub, .h-text, .h-small, p, h1, h2, h3, label, input, select, textarea, button { font-family: 'Times New Roman', Times, serif !important; }
-.stApp { background-color: #Of1A13 !important; }`
+.stApp { background-color: #0F1A13 !important; }
 section[data-testid="stSidebar"] { background-color: #101E14 !important; }
 section[data-testid="stSidebar"] * { color: #E8EDE8 !important; font-size: 14px !important; }
 section[data-testid="stSidebar"] h3 { color: #fff !important; font-size: 20px !important; font-weight: 800 !important; }
