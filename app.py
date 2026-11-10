@@ -12,7 +12,7 @@ st.set_page_config(page_title=f"FinanceDesk - {MY_NAME}", page_icon="🟩", layo
 st.markdown("""
 <style>
 .stApp, .block-container, .h-card, .h-label, .h-num, .h-title, .h-sub, .h-text, .h-small, p, h1, h2, h3, label, input, select, textarea, button { font-family: 'Times New Roman', Times, serif !important; }
-.stApp { background-color: #0F1A13 !important; }
+.stApp { background-color: #F3F4F1 !important; }
 section[data-testid="stSidebar"] { background-color: #101E14 !important; }
 section[data-testid="stSidebar"] * { color: #E8EDE8 !important; font-size: 14px !important; }
 section[data-testid="stSidebar"] h3 { color: #fff !important; font-size: 20px !important; font-weight: 800 !important; }
@@ -340,4 +340,4 @@ elif menu in ["📋 All tasks", "➕ New task"] or st.session_state.show_form:
     if menu == "➕ New task":
         st.session_state.show_form = True; st.rerun()
     register_box("All")
-st.caption(f"FinanceDesk · {MY_NAME} · {MY_OFFICE} · Auto-saved to {DATA_FILE}")
+st.caption(f"FinanceDesk · {MY_NAME} · {MY_OFFICE} · Auto-saved to {DATA_FILE}")streamlit run app.py
