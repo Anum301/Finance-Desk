@@ -5,7 +5,7 @@ from supabase import create_client
 
 # --- YOUR SUPABASE - PASTE YOUR KEY HERE ---
 SUPABASE_URL = "https://opikmenodygpotuuoxdi.supabase.co"
-SUPABASE_KEY = "PASTE_YOUR_sb_publishable_KEY_HERE"
+SUPABASE_KEY = "sb_publishable_3ts27IR5LdfBpQYrLxn7MA_XwfP4X6_"
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 st.set_page_config(page_title="Finance Desk - Anum", layout="wide")
