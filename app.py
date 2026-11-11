@@ -340,4 +340,4 @@ elif menu in ["📋 All tasks", "➕ New task"] or st.session_state.show_form:
     if menu == "➕ New task":
         st.session_state.show_form = True; st.rerun()
     register_box("All")
-st.caption(f"FinanceDesk · {MY_NAME} · {MY_OFFICE} · Auto-saved to {DATA_FILE}")streamlit run app.py
+st.caption(f"FinanceDesk · {MY_NAME} · {MY_OFFICE} · Auto-saved to {DATA_FILE}")
